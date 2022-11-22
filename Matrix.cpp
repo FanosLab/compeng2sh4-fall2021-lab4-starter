@@ -52,7 +52,7 @@ int Matrix::getElement(int i, int j){
 
 
 		return -1;
-	}
+	
 
 }
 
@@ -68,7 +68,7 @@ Matrix Matrix::copy(){
 	/* fix the code and write your implementation below */
 	Matrix copy = Matrix (0,0);
 
-    Matrix copy=  Matrix(rowsNum,colsNum );
+   
 
 
     return  copy;
